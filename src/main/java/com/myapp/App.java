@@ -8,14 +8,10 @@ import com.sun.org.apache.xpath.internal.SourceTree;
 public class App {
     public static void main(String[] args) {
 
-        int limit = 100;
-
-
         int[] tablica = new int[100];
         for (int i = 0; i < 99; i++)
             tablica[i] = i + 1;
 
-        int zmienna = tablica[3];
         int suma = 0;
 
         for (int i = 0; i < 100; i++) {
@@ -25,7 +21,12 @@ public class App {
         System.out.println(suma/100d);
 
 
-    }}
+    }
+    public static (String[] args) {
+
+        Car myCar1 = new Car();
+        System.out.println(myCar1.toString());
+}}
 
      /** tablica z elementami od 0 do 99
      zrobic metode ktora zwroci nam srednia arytmetyczna
