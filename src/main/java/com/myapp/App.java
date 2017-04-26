@@ -20,7 +20,6 @@ public class App {
         }
         System.out.println(suma/100d);
 
-
     }
     public static (String[] args) {
 
