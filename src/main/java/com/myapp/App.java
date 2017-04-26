@@ -9,8 +9,8 @@ public class App {
     public static void main(String[] args) {
 
         int[] tablica = new int[100];
-        for (int i = 0; i < 99; i++)
-            tablica[i] = i + 1;
+        for (int i = 0; i < 100; i++)
+            tablica[i] = i;
 
         int suma = 0;
 
